@@ -1,0 +1,652 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+  <meta charset="UTF-8" />\
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />\
+  <title>HEALUX Wellness | NeckX Ultra-Light Neck Massager Manual</title>\
+  <meta name="description" content="Official user manual for HEALUX Wellness NeckX Ultra-Light Neck Massager: safety, specs, usage instructions, warranty, and FAQs." />\
+\
+  <!-- Brand Fonts (classy + clean) -->\
+  <link rel="preconnect" href="https://fonts.googleapis.com">\
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">\
+\
+  <style>\
+    /* =========================\
+       HEALUX Brand Tokens\
+       ========================= */\
+    :root\{\
+      --healux-green: #1E5033;     /* primary */\
+      --healux-green-700: #163B27; /* darker */\
+      --healux-mint: #F1F7F4;      /* soft background */\
+      --healux-ink: #0F172A;       /* near-black */\
+      --healux-slate: #334155;     /* body text */\
+      --healux-muted: #64748B;     /* secondary text */\
+      --healux-border: #E5E7EB;    /* borders */\
+      --healux-card: #FFFFFF;      /* cards */\
+      --healux-gold: #C8A44D;      /* accent */\
+      --healux-warn: #B42318;      /* warning */\
+      --radius-xl: 18px;\
+      --radius-lg: 14px;\
+      --shadow: 0 8px 24px rgba(15, 23, 42, 0.08);\
+      --maxw: 1040px;\
+      --space: 16px;\
+    \}\
+\
+    *\{ box-sizing:border-box; \}\
+    html, body\{ height:100%; \}\
+\
+    body\{\
+      margin:0;\
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\
+      color: var(--healux-slate);\
+      background: linear-gradient(180deg, var(--healux-mint) 0%, #ffffff 40%);\
+      -webkit-font-smoothing: antialiased;\
+      -moz-osx-font-smoothing: grayscale;\
+    \}\
+\
+    a\{ color: var(--healux-green); text-decoration: none; \}\
+    a:hover\{ text-decoration: underline; \}\
+\
+    /* =========================\
+       Layout (Mobile-first)\
+       ========================= */\
+    .wrap\{\
+      max-width: var(--maxw);\
+      margin: 0 auto;\
+      padding: 18px 16px 56px;\
+    \}\
+\
+    /* Top bar */\
+    .topbar\{\
+      position: sticky;\
+      top: 0;\
+      z-index: 50;\
+      background: rgba(241,247,244,0.82);\
+      backdrop-filter: blur(10px);\
+      border-bottom: 1px solid rgba(229,231,235,0.8);\
+    \}\
+    .topbar-inner\{\
+      max-width: var(--maxw);\
+      margin: 0 auto;\
+      padding: 10px 16px;\
+      display: flex;\
+      align-items: center;\
+      justify-content: space-between;\
+      gap: 12px;\
+    \}\
+    .brand\{\
+      display:flex;\
+      align-items:center;\
+      gap:10px;\
+      min-width: 0;\
+    \}\
+    .brand-badge\{\
+      width: 34px; height: 34px;\
+      border-radius: 10px;\
+      background: linear-gradient(135deg, var(--healux-green), var(--healux-green-700));\
+      box-shadow: 0 8px 18px rgba(30,80,51,0.22);\
+      flex: 0 0 auto;\
+      position: relative;\
+    \}\
+    .brand-badge::after\{\
+      content:"";\
+      position:absolute;\
+      inset: 9px;\
+      border-radius: 7px;\
+      border: 1.5px solid rgba(200,164,77,0.9);\
+    \}\
+    .brand-text\{\
+      min-width:0;\
+    \}\
+    .brand-text .name\{\
+      font-family: "Playfair Display", serif;\
+      font-weight: 700;\
+      letter-spacing: 0.2px;\
+      color: var(--healux-green-700);\
+      line-height: 1.1;\
+      margin:0;\
+      font-size: 16px;\
+      white-space: nowrap;\
+      overflow: hidden;\
+      text-overflow: ellipsis;\
+    \}\
+    .brand-text .sub\{\
+      margin:0;\
+      font-size: 12px;\
+      color: var(--healux-muted);\
+      white-space: nowrap;\
+      overflow: hidden;\
+      text-overflow: ellipsis;\
+    \}\
+\
+    .btn\{\
+      appearance:none;\
+      border:1px solid rgba(30,80,51,0.18);\
+      background: #fff;\
+      color: var(--healux-green-700);\
+      padding: 9px 12px;\
+      border-radius: 999px;\
+      font-weight: 600;\
+      font-size: 13px;\
+      display:inline-flex;\
+      align-items:center;\
+      gap:8px;\
+      cursor:pointer;\
+      box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);\
+    \}\
+    .btn:active\{ transform: translateY(1px); \}\
+    .btn-primary\{\
+      background: linear-gradient(135deg, var(--healux-green), var(--healux-green-700));\
+      color:#fff;\
+      border-color: rgba(0,0,0,0);\
+    \}\
+\
+    /* Hero */\
+    .hero\{\
+      margin-top: 16px;\
+      background: radial-gradient(1200px 380px at 20% 0%, rgba(200,164,77,0.18) 0%, rgba(200,164,77,0) 55%),\
+                  linear-gradient(135deg, rgba(30,80,51,0.10), rgba(30,80,51,0.02));\
+      border: 1px solid rgba(30,80,51,0.14);\
+      border-radius: var(--radius-xl);\
+      padding: 18px;\
+      box-shadow: var(--shadow);\
+    \}\
+    .hero h1\{\
+      margin: 0 0 6px;\
+      font-family: "Playfair Display", serif;\
+      color: var(--healux-ink);\
+      font-size: 26px; /* mobile-first */\
+      line-height: 1.15;\
+      letter-spacing: 0.2px;\
+    \}\
+    .hero p\{\
+      margin: 0;\
+      color: var(--healux-slate);\
+      font-size: 14px;\
+      max-width: 68ch;\
+    \}\
+    .hero-meta\{\
+      display:flex;\
+      flex-wrap: wrap;\
+      gap: 10px;\
+      margin-top: 14px;\
+    \}\
+    .pill\{\
+      font-size: 12px;\
+      font-weight: 600;\
+      padding: 8px 10px;\
+      border-radius: 999px;\
+      background: rgba(255,255,255,0.75);\
+      border: 1px solid rgba(229,231,235,0.9);\
+      color: var(--healux-green-700);\
+    \}\
+\
+    /* Content cards */\
+    .grid\{\
+      display: grid;\
+      grid-template-columns: 1fr; /* mobile-first */\
+      gap: 14px;\
+      margin-top: 16px;\
+    \}\
+    .card\{\
+      background: var(--healux-card);\
+      border: 1px solid rgba(229,231,235,0.9);\
+      border-radius: var(--radius-xl);\
+      padding: 16px;\
+      box-shadow: 0 6px 18px rgba(15,23,42,0.06);\
+    \}\
+    .card h2\{\
+      margin: 0 0 10px;\
+      font-family: "Playfair Display", serif;\
+      font-size: 18px;\
+      color: var(--healux-ink);\
+      letter-spacing: 0.2px;\
+    \}\
+    .card h3\{\
+      margin: 14px 0 8px;\
+      font-size: 14px;\
+      color: var(--healux-green-700);\
+      letter-spacing: 0.2px;\
+    \}\
+    .card p\{\
+      margin: 0 0 10px;\
+      font-size: 14px;\
+    \}\
+    .list\{\
+      margin: 0;\
+      padding-left: 18px;\
+      font-size: 14px;\
+    \}\
+    .list li\{ margin: 7px 0; \}\
+\
+    .note\{\
+      background: rgba(241,247,244,0.9);\
+      border: 1px solid rgba(30,80,51,0.14);\
+      border-left: 5px solid var(--healux-green);\
+      padding: 12px 12px;\
+      border-radius: var(--radius-lg);\
+      margin-top: 12px;\
+      color: var(--healux-slate);\
+      font-size: 13px;\
+    \}\
+\
+    .warn\{\
+      background: rgba(180,35,24,0.06);\
+      border: 1px solid rgba(180,35,24,0.18);\
+      border-left: 5px solid var(--healux-warn);\
+      padding: 12px 12px;\
+      border-radius: var(--radius-lg);\
+      margin-top: 12px;\
+      color: #7A1D18;\
+      font-size: 13px;\
+    \}\
+\
+    /* QR section */\
+    .qr\{\
+      display: grid;\
+      grid-template-columns: 1fr;\
+      gap: 12px;\
+      align-items: center;\
+      margin-top: 12px;\
+      padding: 14px;\
+      border-radius: var(--radius-xl);\
+      background: linear-gradient(135deg, rgba(200,164,77,0.14), rgba(241,247,244,0.6));\
+      border: 1px solid rgba(200,164,77,0.22);\
+    \}\
+    .qr img\{\
+      width: 160px;\
+      max-width: 100%;\
+      height: auto;\
+      border-radius: 14px;\
+      border: 1px solid rgba(229,231,235,0.95);\
+      background: #fff;\
+      padding: 10px;\
+      box-shadow: 0 10px 24px rgba(15,23,42,0.08);\
+      justify-self: start;\
+    \}\
+    .qr h3\{\
+      margin: 0 0 6px;\
+      font-size: 14px;\
+      color: var(--healux-green-700);\
+    \}\
+    .qr p\{\
+      margin: 0;\
+      font-size: 13px;\
+      color: var(--healux-slate);\
+    \}\
+\
+    /* FAQ */\
+    details\{\
+      border: 1px solid rgba(229,231,235,0.95);\
+      border-radius: 14px;\
+      padding: 12px 12px;\
+      background: #fff;\
+      margin: 10px 0;\
+    \}\
+    summary\{\
+      cursor: pointer;\
+      font-weight: 700;\
+      color: var(--healux-ink);\
+      font-size: 14px;\
+    \}\
+    details p\{\
+      margin-top: 10px;\
+      color: var(--healux-slate);\
+    \}\
+\
+    /* Footer */\
+    .footer\{\
+      margin-top: 18px;\
+      padding: 18px 14px;\
+      border-radius: var(--radius-xl);\
+      background: linear-gradient(135deg, var(--healux-green), var(--healux-green-700));\
+      color: #fff;\
+      box-shadow: 0 14px 26px rgba(30,80,51,0.22);\
+    \}\
+    .footer h2\{\
+      margin: 0 0 8px;\
+      font-family: "Playfair Display", serif;\
+      font-size: 18px;\
+      color:#fff;\
+    \}\
+    .footer p\{\
+      margin: 6px 0 0;\
+      color: rgba(255,255,255,0.92);\
+      font-size: 14px;\
+    \}\
+    .footer a\{ color:#fff; text-decoration: underline; \}\
+\
+    /* =========================\
+       Responsive Enhancements\
+       ========================= */\
+    @media (min-width: 768px)\{\
+      .wrap\{ padding: 22px 20px 64px; \}\
+      .hero\{ padding: 24px; \}\
+      .hero h1\{ font-size: 34px; \}\
+      .hero p\{ font-size: 15px; \}\
+      .grid\{ grid-template-columns: 1fr 1fr; gap: 16px; \}\
+      .qr\{ grid-template-columns: 200px 1fr; \}\
+      .qr img\{ justify-self: center; \}\
+      .card\{ padding: 18px; \}\
+      .card h2\{ font-size: 20px; \}\
+    \}\
+\
+    @media (min-width: 1024px)\{\
+      .grid\{ grid-template-columns: 1fr 1fr; \}\
+      .hero-meta\{ gap: 12px; \}\
+    \}\
+\
+    /* =========================\
+       Print-Friendly Styles\
+       ========================= */\
+    @media print\{\
+      :root\{\
+        --healux-mint: #fff;\
+      \}\
+      body\{\
+        background: #fff !important;\
+      \}\
+      .topbar,\
+      .btn,\
+      .pill\{\
+        display: none !important;\
+      \}\
+      .wrap\{\
+        max-width: 100% !important;\
+        padding: 0 !important;\
+      \}\
+      .hero\{\
+        box-shadow: none !important;\
+        border: 0 !important;\
+        padding: 0 0 12px 0 !important;\
+        background: none !important;\
+        margin: 0 0 12px 0 !important;\
+      \}\
+      .grid\{\
+        display: block !important;\
+      \}\
+      .card\{\
+        box-shadow: none !important;\
+        border: 0 !important;\
+        border-radius: 0 !important;\
+        padding: 0 !important;\
+        margin: 0 0 14px 0 !important;\
+        page-break-inside: avoid;\
+      \}\
+      details\{\
+        border: 0 !important;\
+        padding: 0 !important;\
+      \}\
+      summary\{\
+        list-style: none;\
+      \}\
+      details[open] summary::after,\
+      summary::after\{\
+        content: "";\
+      \}\
+      .footer\{\
+        box-shadow: none !important;\
+        border-radius: 0 !important;\
+        background: none !important;\
+        color: #000 !important;\
+        padding: 0 !important;\
+      \}\
+      .footer p, .footer a, .footer h2\{\
+        color: #000 !important;\
+      \}\
+      a\{\
+        text-decoration: none !important;\
+        color: #000 !important;\
+      \}\
+      /* show URLs in print */\
+      a[href^="http"]::after\{\
+        content: " (" attr(href) ")";\
+        font-size: 11px;\
+        color: #444;\
+      \}\
+    \}\
+  </style>\
+</head>\
+\
+<body>\
+\
+  <!-- Sticky top bar (hidden in print) -->\
+  <div class="topbar">\
+    <div class="topbar-inner">\
+      <div class="brand" aria-label="HEALUX Wellness">\
+        <div class="brand-badge" aria-hidden="true"></div>\
+        <div class="brand-text">\
+          <p class="name">HEALUX Wellness</p>\
+          <p class="sub">NeckX User Manual</p>\
+        </div>\
+      </div>\
+      <div style="display:flex; gap:10px; align-items:center;">\
+        <button class="btn" onclick="window.print()" aria-label="Print this manual">\uc0\u55357 \u56744 \u65039  Print</button>\
+        <a class="btn btn-primary" href="#support" aria-label="Go to customer support">Support</a>\
+      </div>\
+    </div>\
+  </div>\
+\
+  <main class="wrap">\
+\
+    <section class="hero" aria-label="Manual introduction">\
+      <h1>NeckX Ultra-Light Neck Massager</h1>\
+      <p>\
+        Welcome to your comprehensive guide. Use this manual to understand the product overview, safety precautions,\
+        specifications, instructions for use, warranty details, and FAQs.\
+      </p>\
+\
+      <div class="hero-meta" aria-label="Quick highlights">\
+        <span class="pill">Lightweight & Ergonomic</span>\
+        <span class="pill">Heat Therapy (3 levels)</span>\
+        <span class="pill">3 Massage Modes</span>\
+        <span class="pill">Type-C Charging</span>\
+      </div>\
+\
+      <!-- QR Code Section -->\
+      <div class="qr" aria-label="QR Code">\
+        <img src="assets/healux-qr.png" alt="HEALUX QR code (replace this image with your real QR)" />\
+        <div>\
+          <h3>Follow HEALUX Wellness</h3>\
+          <p>\
+            Scan this QR code to follow us for wellness tips, product updates, and support.\
+            <br><span style="color:var(--healux-muted); font-size:12px;">Tip: Replace <strong>assets/healux-qr.png</strong> with your actual QR image.</span>\
+          </p>\
+        </div>\
+      </div>\
+    </section>\
+\
+    <section class="grid" aria-label="Manual sections">\
+\
+      <article class="card" id="overview">\
+        <h2>1. Product Overview & Highlights</h2>\
+        <ul class="list">\
+          <li><strong>Name:</strong> NeckX Ultra-Light Neck Massager</li>\
+          <li><strong>Battery Capacity:</strong> 900mAh</li>\
+          <li><strong>Rated Power:</strong> 3W</li>\
+          <li><strong>Rated Voltage:</strong> 5V</li>\
+        </ul>\
+\
+        <h3>Highlights</h3>\
+        <ul class="list">\
+          <li><strong>Lightweight Design:</strong> ergonomic structure for comfort during extended use</li>\
+          <li><strong>Soothing Heat Therapy:</strong> adjustable heat settings to support circulation and relieve tension</li>\
+          <li><strong>Massage Modes:</strong> Wave, Rhythmic, and Knock</li>\
+          <li><strong>Intelligent Controls:</strong> user-friendly settings for a personalized massage</li>\
+        </ul>\
+\
+        <div class="note">\
+          For optimal results, start with the lowest heat setting and adjust gradually to your comfort.\
+        </div>\
+      </article>\
+\
+      <article class="card" id="safety">\
+        <h2>2. Safety Precautions</h2>\
+\
+        <h3>General Precautions</h3>\
+        <ul class="list">\
+          <li>Turn off the power when not in use</li>\
+          <li>Do not immerse the product in water</li>\
+          <li>If the massager gets wet, allow it to dry completely before use</li>\
+          <li>Do not fold the graphene heating film located in the center of the massager</li>\
+          <li>Let the device cool down before removing it from your neck</li>\
+          <li>Avoid cold water on your neck right after use</li>\
+        </ul>\
+\
+        <div class="warn">\
+          <strong>Warning:</strong> Discontinue use and consult a doctor if discomfort occurs.\
+        </div>\
+\
+        <h3>Warnings</h3>\
+        <ul class="list">\
+          <li>Do not use with damaged cords or plugs</li>\
+          <li>Do not disassemble the battery to prevent fire or electric shock</li>\
+          <li>Avoid using if sensitive to heat or advised against heat compress therapy</li>\
+          <li>Consult a medical professional before use if pregnant, have pacemakers, herniated discs, a history of stroke, or other serious medical conditions</li>\
+          <li>Do not allow children under 10 or adults who are incapacitated to use this device</li>\
+        </ul>\
+      </article>\
+\
+      <article class="card" id="use">\
+        <h2>3. Instructions for Use</h2>\
+\
+        <h3>Charging the Device</h3>\
+        <ul class="list">\
+          <li>Use the Type-C adapter and connect to a 5V-1A power socket</li>\
+          <li><strong>Red Light:</strong> Charging</li>\
+          <li><strong>Green Light:</strong> Fully charged</li>\
+        </ul>\
+\
+        <h3>Heat Function</h3>\
+        <ul class="list">\
+          <li>Long press the <strong>Heat</strong> button to turn on/off</li>\
+          <li><strong>High:</strong> Red | <strong>Medium:</strong> Blue | <strong>Low:</strong> Green</li>\
+        </ul>\
+\
+        <h3>Vibration Function</h3>\
+        <ul class="list">\
+          <li>Long press the <strong>Vibration</strong> button to activate</li>\
+          <li><strong>Wave Mode:</strong> Red | <strong>Knock Mode:</strong> Blue | <strong>Rhythm Mode:</strong> Green</li>\
+        </ul>\
+\
+        <h3>Care & Storage</h3>\
+        <ul class="list">\
+          <li>Cool before storage: let the device cool before putting it away</li>\
+          <li>Store in a cool, dry place away from sunlight or heat sources</li>\
+          <li>Cleaning: wipe gently with a soft, dry cloth (avoid damp cloths and volatile liquids like gasoline or alcohol)</li>\
+        </ul>\
+      </article>\
+\
+      <article class="card" id="audio-warranty">\
+        <h2>4. Healing Audios & Warranty</h2>\
+\
+        <h3>Healing Audios</h3>\
+        <p>\
+          Healing audio tracks are designed to complement your massage experience and support relaxation.\
+        </p>\
+\
+        <h3>Warranty Information</h3>\
+        <ul class="list">\
+          <li><strong>Warranty Period:</strong> 60 days from the date of purchase</li>\
+          <li><strong>Coverage:</strong> Mechanical faults only</li>\
+          <li><strong>Exclusions:</strong> Wear and tear, improper use, or unauthorized repairs</li>\
+          <li><strong>Proof of Purchase:</strong> Keep your purchase invoice</li>\
+        </ul>\
+\
+        <div class="note">\
+          For warranty service, contact: <strong>healuxwellness@gmail.com</strong>\
+        </div>\
+      </article>\
+\
+      <article class="card" id="faq">\
+        <h2>5. FAQs</h2>\
+\
+        <details>\
+          <summary>Can the neck massager be used on other areas of the body?</summary>\
+          <p>The massager is designed for the neck. The strap may not stay secure if used elsewhere.</p>\
+        </details>\
+\
+        <details>\
+          <summary>How long should I use the neck massager at a time?</summary>\
+          <p>Recommended: 15\'9620 minutes per session, 2\'963 times per day depending on your needs.</p>\
+        </details>\
+\
+        <details>\
+          <summary>Is it safe to use the neck massager daily?</summary>\
+          <p>Yes\'97use it daily as long as you follow the recommended guidelines.</p>\
+        </details>\
+\
+        <details>\
+          <summary>Can the massager be used with essential oils or lotions?</summary>\
+          <p>Not recommended. Oils or lotions may damage the fabric or internal components.</p>\
+        </details>\
+\
+        <details>\
+          <summary>Can I use the neck massager while it is charging?</summary>\
+          <p>For safety reasons, do not use the device while charging.</p>\
+        </details>\
+\
+        <details>\
+          <summary>What should I do if the neck massager stops working?</summary>\
+          <p>Ensure it is fully charged. If it still doesn\'92t work, contact customer support.</p>\
+        </details>\
+\
+        <details>\
+          <summary>The device is heating up too much. Is this normal?</summary>\
+          <p>Heat has three levels. If it feels too hot, lower the intensity and start from the lowest setting.</p>\
+        </details>\
+\
+        <details>\
+          <summary>What if the heat or vibration settings are not working properly?</summary>\
+          <p>Restart the device and ensure it is fully charged. If the issue persists, contact support.</p>\
+        </details>\
+\
+        <details>\
+          <summary>Can the neck massager replace medication or seeing a doctor?</summary>\
+          <p>\
+            No. It offers temporary comfort and relaxation. If pain persists or you have medical conditions,\
+            consult a healthcare professional.\
+          </p>\
+        </details>\
+      </article>\
+\
+      <article class="card" id="support">\
+        <h2>6. Customer Support</h2>\
+        <p>\
+          <strong>Website:</strong> <a href="https://www.healuxwellness.com" target="_blank" rel="noopener">www.healuxwellness.com</a><br>\
+          <strong>Email:</strong> healuxwellness@gmail.com<br>\
+          <strong>WhatsApp:</strong> 9834 7158\
+        </p>\
+\
+        <div class="note">\
+          Prefer printing? Tap <strong>Print</strong> at the top \'97 it will automatically switch to a clean print layout.\
+        </div>\
+      </article>\
+\
+    </section>\
+\
+    <section class="footer" aria-label="Footer">\
+      <h2>HEALUX Wellness</h2>\
+      <p>Healing your HEALUX way.</p>\
+    </section>\
+\
+  </main>\
+\
+  <script>\
+    // Optional: Expand all FAQs before printing for a complete printed manual\
+    window.addEventListener('beforeprint', () => \{\
+      document.querySelectorAll('details').forEach(d => d.open = true);\
+    \});\
+  </script>\
+\
+</body>\
+</html>\
+}
